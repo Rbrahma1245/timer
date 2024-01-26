@@ -12,16 +12,8 @@ import UseCallback from "./Components/Callback/UseCallback";
 function App() {
   return (
     <>
-    <h2>This is App Component</h2>
-    {/* <ReactTable /> */}
-    <UseCallback />
-    <h5>THIS IS TESTING FOR SSH KEY</h5>
+    <h2>Testing SSH key</h2>
 
-    {/* <UseMemo /> */}
-
-    {/* <Header />
-    <Timer /> */}
-    {/* <ClassTimer /> */}
     </>
   );
 }
