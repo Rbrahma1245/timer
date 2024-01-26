@@ -16,6 +16,8 @@ function App() {
 
     <div>Testing another changes </div>
 
+    <h2>UPDATED TEST IN THE MAIN BRANCH</h2>
+
     </>
   );
 }
