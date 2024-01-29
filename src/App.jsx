@@ -1,34 +1,20 @@
-import "./App.css";
-import UseCallback from "./Components/Callback/UseCallback";
-// import UseMemo from "./Components/UseMemo/UseMemo";
-// import ClassTimer from "./ClassComponent/ClassTimer";
-// import Header from "./Components/Header"
-// import Timer from "./Components/Timer/Timer"
-// import ReactTable from "./Components/Tables/ReactTable"
-
-
-
+import ClassCom1 from "./ClassComponent/UseContext/ClassCom1";
+import ClassUseContext from "./ClassComponent/UseContext/ClassUseContext";
+// import APIContext from "./Components/UseContext/APIContext";
+// import Component1 from "./Components/UseContext/Component1";
 
 function App() {
   return (
     <>
-    <h2>Testing SSH key</h2>
+      {/* <APIContext>
+   
+        <Component1 />
+      </APIContext> */}
 
-    <div>Testing another changes </div>
+      <ClassUseContext>
+        <ClassCom1 />
 
-    <h2>UPDATED TEST IN THE MAIN BRANCH</h2>
-
-    <h2>This is App Component</h2>
-    {/* <ReactTable /> */}
-    <UseCallback />
-
-    <h1>After Feature/Header component</h1>
-
-    {/* <UseMemo /> */}
-
-    {/* <Header />
-    <Timer /> */}
-    {/* <ClassTimer /> */}
+      </ClassUseContext>
     </>
   );
 }

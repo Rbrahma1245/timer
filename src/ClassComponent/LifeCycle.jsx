@@ -1,4 +1,4 @@
-import  { Component } from "react";
+import { Component } from "react";
 
 class LifeCycle extends Component {
   constructor() {
@@ -16,7 +16,7 @@ class LifeCycle extends Component {
     this.state.count;
   }
   handleClick() {
-    console.log(this.state.count+1);
+    console.log(this.state.count + 1);
     this.setState({ count: this.state.count + 1 });
   }
   render() {
